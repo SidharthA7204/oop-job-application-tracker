@@ -1,0 +1,6 @@
+class User:
+    def __init__(self, name):
+        self.__name = name   # encapsulation
+
+    def get_name(self):
+        return self.__name
